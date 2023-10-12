@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Pacientes</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Centro medico Backend</h1>
+    </header>
+    <main>
+        <h2>Listado de Pacientes Registrados</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th><b>Nombres</b></th>
+                    <th><b>Apellidos</b></th>
+                    <th><b>Numero de Cedula</b></th>
+                    <th><b>Edad</b></th>
+                    <th><b>Telefono</b></th>
+                    <th><b>Especialidad</b></th>
+                    <th><b>Medico</b></th>
+                </tr>
+            </thead>
+            <tbody id="cuerpo-tabla-pacientes">
+                <!-- Se agrega el contenido dinamicamente por medio de JS -->
+                <tr>
+                    <td>Sergio</td>
+                    <td>Figueroa</td>
+                    <td>21654489</td>
+                    <td>51</td>
+                    <td>3146985232</td>
+                    <td>Medicina General</td>
+                    <td>Luis Garcia</td>
+                </tr>
+                <tr>
+                    <td>Felipe</td>
+                    <td>Arias</td>
+                    <td>645642564</td>
+                    <td>22</td>
+                    <td>3158740541</td>
+                    <td>Odontologia</td>
+                    <td>Andrea Mendoza</td>
+                </tr>
+                <tr>
+                    <td>Gina</td>
+                    <td>Ulloa</td>
+                    <td>534316542</td>
+                    <td>31</td>
+                    <td>3178945879</td>
+                    <td>Psicologia</td>
+                    <td>Marcela Perez</td>
+                </tr>
+                <tr>
+                    <td>Ramiro</td>
+                    <td>Molina</td>
+                    <td>236547890</td>
+                    <td>16</td>
+                    <td>3164789125</td>
+                    <td>Dermatologia</td>
+                    <td>Adriana Lopez</td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="../index.html"><input type="button" value="Volver"></a>
+    </main>
+    <footer>
+        <h2>Realizado por:</h2>
+        <p>Grupo 1 desarrollo web backend</p>
+    </footer>
+    <script src="../app.js"></script>
+</body>
+</html>

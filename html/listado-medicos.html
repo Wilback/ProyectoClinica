@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Medicos</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Centro Medico Backend</h1>
+    </header>
+    <main>
+        <h2>Listado de Medicos Registrados</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th><b>Nombres</b></th>
+                    <th><b>Apellidos</b></th>
+                    <th><b>Numero de Cedula</b></th>
+                    <th><b>Numero de consultorio</b></th>
+                    <th><b>Telefono</b></th>
+                    <th><b>Correo</b></th>
+                    <th><b>Especialidad</b></th>
+                    <th><b>Paciente</b></th>
+                </tr>
+            </thead>
+            <tbody id="cuerpo-tabla-medicos">
+                <!-- Se agrega el contenido dinamicamente por medio de JS -->
+                <tr>
+                    <td>Luis</td>
+                    <td>Garcia</td>
+                    <td>84563214</td>
+                    <td>105</td>
+                    <td>3214569852</td>
+                    <td>luisgar@cmback.com</td>
+                    <td>Medicina General</td>
+                    <td>Sergio Figueroa</td>
+                </tr>
+                <tr>
+                    <td>Andrea</td>
+                    <td>Mendoza</td>
+                    <td>45645642</td>
+                    <td>202</td>
+                    <td>3145698740</td>
+                    <td>anmen@cmback.com</td>
+                    <td>Odontologia</td>
+                    <td>Felipe Arias</td>
+                </tr>
+                <tr>
+                    <td>Marcela</td>
+                    <td>Perez</td>
+                    <td>4453431654</td>
+                    <td>301</td>
+                    <td>3165478945</td>
+                    <td>mape@cmback.com</td>
+                    <td>Psicologia</td>
+                    <td>Gina Ulloa</td>
+                </tr>
+                <tr>
+                    <td>Adriana</td>
+                    <td>Lopez</td>
+                    <td>123654789</td>
+                    <td>403</td>
+                    <td>3125647891</td>
+                    <td>adrilo@cmback.com</td>
+                    <td>Dermatologia</td>
+                    <td>Ramiro Molina</td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="../index.html"><input type="button" value="Volver"></a>
+    </main>
+    <footer>
+        <h2>Realizado por:</h2>
+        <p>Grupo 1 desarrollo web backend</p>
+    </footer>
+    <script src="../app.js"></script>
+</body>
+</html>
